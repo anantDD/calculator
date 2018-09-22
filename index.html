@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td>
+                <div id='calc' style='border:solid; border-radius:10%'>
+                    <div id='total' class='container-fluid'>
+                        <div id='name' class='text-center'><br></div>
+                        <div id='screen' class='well'>
+                            <span id='display'>0</span>
+                            <br>
+                            <span id='history'>0</span>
+
+                        </div>
+
+
+                        <div id='work'>
+                            <div class='row no-gutters'>
+                                <div class='col-xs-3 '>
+                                    <button class='btn btn-block' id='ac'>AC</button></div>
+                                <div class='col-xs-3 '>
+                                    <button class='btn btn-block' id='ce'>CE</button>
+                                </div>
+                                <div class='col-xs-3'>
+                                    <button class='btn btn-block operator' id='mult'>x</button>
+                                </div>
+                                <div class='col-xs-3'>
+                                    <button class='btn btn-block operator' id='divis'>\</button>
+                                </div>
+                            </div>
+                            <div class='row no-gutters'>
+                                <div class='col-xs-3'>
+                                    <button class='nmbr btn btn-block' id='1'>1</button>
+                                </div>
+                                <div class='col-xs-3'>
+                                    <button class='nmbr btn btn-block' id='2'>2</button>
+                                </div>
+                                <div class='col-xs-3'>
+                                    <button class='nmbr btn btn-block' id='3'>3</button>
+                                </div>
+                                <div class='col-xs-3'>
+                                    <button class='btn btn-block operator' id='plus'>+</button>
+                                </div>
+                            </div>
+                            <div class='row no-gutters'>
+                                <div class='col-xs-3'>
+                                    <button class='nmbr btn btn-block' id='4'>4</button></div>
+                                <div class='col-xs-3'>
+                                    <button class='btn btn-block' id='5'>5</button></div>
+                                <div class='col-xs-3'>
+                                    <button class='nmbr btn btn-block' id='6'>6</button></div>
+                                <div class='col-xs-3'>
+                                    <button class='btn btn-block operator' id='minus'>-</button></div>
+
+                                <div class='col-xs-9'>
+                                    <div class='row no-gutters'>
+                                        <div class='col-xs-4'>
+                                            <button class='nmbr btn btn-block' id='7'>7</button></div>
+                                        <div class='col-xs-4'>
+                                            <button class='nmbr btn btn-block' id='8'>8</button></div>
+                                        <div class='col-xs-4'>
+                                            <button class='nmbr btn btn-block' id='9'>9</button></div>
+                                    </div>
+                                    <div class='row no-gutters'>
+                                        <div class='col-xs-8'>
+                                            <button class='nmbr btn btn-block' class='btn btn-block' id='0'>0</button></div>
+                                        <div class='col-xs-4'>
+                                            <button class='btn btn-block' id='dot'>.</button></div>
+                                    </div>
+                                </div>
+                                <div class='col-xs-3'>
+                                    <button class='btn btn-block' style="padding-bottom:10px" id='equalto'><br>=<br><br></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </td>
+        </tr>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
